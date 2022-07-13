@@ -1,0 +1,2 @@
+export const CHANGE_CURRENT_SONG = "player/CHANGE_CURRENT_SONG";
+export const CHANGE_LYRICS_LIST = "player/CHANGE_LYRICS_LIST";

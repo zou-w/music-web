@@ -7,6 +7,8 @@ import store from "./store";
 
 import ZWAppHeader from "@/components/app-header";
 import ZWAppFooter from "@/components/app-footer";
+import ZWAppPlayerBar from "./pages/player/app-playe-bar";
+
 import { HashRouter } from "react-router-dom";
 
 export default memo(function App() {
@@ -16,6 +18,7 @@ export default memo(function App() {
         <ZWAppHeader />
         {renderRoutes(routes)}
         <ZWAppFooter />
+        <ZWAppPlayerBar />
       </HashRouter>
     </Provider>
   );
